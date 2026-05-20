@@ -121,6 +121,13 @@ Los archivos en `tests/` actualmente funcionan como scripts de demostración má
 
 ---
 
+## Convenciones para commits
+
+- Mensajes de commit **siempre en español**.
+- **No usar** la línea `Co-Authored-By` en ningún commit (para no aparecer como contribuidor en GitHub).
+
+---
+
 ## Roadmap pedagógico (orientativo)
 
 1. Implementar `Filter.pasabanda()` y `Filter.pasabajos()` usando `scipy.signal`

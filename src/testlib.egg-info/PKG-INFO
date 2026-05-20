@@ -1,0 +1,40 @@
+Metadata-Version: 2.4
+Name: testlib
+Version: 0.1.0
+Summary: Librería para enseñar a instalar nuestra propia lib
+Author: Fulano, Mengano
+License: MIT
+Keywords: EEG,ECG,EMG,signal processing,image processing,biomedical engineering,Python
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.24
+Requires-Dist: scipy>=1.10
+Requires-Dist: pandas>=1.5
+Requires-Dist: matplotlib>=3.7
+Requires-Dist: plotly>=5.0
+Requires-Dist: pyqtgraph>=0.13
+Requires-Dist: PyQt5>=5.15
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0; extra == "dev"
+Requires-Dist: black>=23.0; extra == "dev"
+Requires-Dist: ruff>=0.1.0; extra == "dev"
+Requires-Dist: build>=1.0; extra == "dev"
+Requires-Dist: twine>=4.0; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: sphinx>=7.0; extra == "docs"
+Requires-Dist: sphinx-rtd-theme>=2.0; extra == "docs"
+
+# Librería de testeo
+
+Se usa para enseñar cómo instalar una librería de manera local.

@@ -3,7 +3,7 @@ logger = logging.getLogger(__name__)
 
 class Filter():
     def __init__(self):
-            logger.debug("Inicializando Filter")
+            logger.debug("HOLA ESTOY GENERANDO UN OBJETO FILTER")
 
     def pasabanda(self,signal):
         logger.info("Aplicando pasabanda")

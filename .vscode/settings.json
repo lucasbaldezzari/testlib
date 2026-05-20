@@ -1,4 +1,14 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:conda",
-    "python-envs.defaultPackageManager": "ms-python.python:conda"
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+
+    // --- Markdown Preview ---
+    // Sincroniza el scroll entre el editor y la preview
+    "markdown.preview.scrollPreviewWithEditor": true,
+    // Resalta en la preview la sección donde está el cursor
+    "markdown.preview.markEditorSelection": true,
+    // Mueve el editor para seguir la posición en la preview
+    "markdown.preview.scrollEditorWithPreview": true,
+    // Abre los archivos .md directamente en modo preview (quitar si preferís editar por defecto)
+    // "workbench.editorAssociations": { "*.md": "vscode.markdown.preview.editor" }
 }
